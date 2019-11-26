@@ -1,0 +1,167 @@
+.logo1{
+
+  top: 10%;
+  align-items: center;
+  position: relative;
+
+
+}
+
+
+
+
+* {box-sizing: border-box
+    text-decoration:none;
+    text-color:white;
+}
+body{
+	background-image:url("bg.jpg");
+	margin-top:10%;
+    background-repeat: no-repeat;
+  background-size:contain;
+      text-color:white;
+    font-family: Poppins, sans-serif;
+    text-decoration:none;
+}
+/* Add padding to containers */
+.container {
+	
+  margin-top:200px;
+  align-items:center;
+  right:0;
+  position: relative;
+  padding: 40px;
+  width:100%;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.5);
+
+}
+ .container h1{
+
+    color:whitesmoke;
+    width: 90%;
+    line-height: inherit;
+    text-align: center;
+    font-weight: inherit;
+
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    border-radius: 10px;
+
+  }
+  
+input[type=text], input[type=number] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+
+  }
+  
+input[type=text]:focus, input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+    border-radius: 10px;
+
+  }
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+label,p{
+    color: whitesmoke;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color:#0090DE;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  background-color:rgb(0, 222, 148);
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+  text-align:center;
+  text-decoration:none;
+  
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.verify:hover{
+  background-color:rgb(0, 222, 148);
+}
+
+.link:hover{
+  background-color:rgb(0, 222, 148);
+}
+
+.verify{
+
+  background-color:#0090DE;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  text-align:center;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  opacity: 0.9;
+}
+
+
+.link{
+	background-color:#0090DE;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  text-align:center;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  opacity: 0.9;
+	  text-decoration:none;
+	
+	
+}
+
+
+
+.link a{
+	
+	text-color:white;
+	text-decoration:none;
+}

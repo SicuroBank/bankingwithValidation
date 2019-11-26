@@ -1,0 +1,105 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins, sans-serif;
+}
+.login
+{
+    position: fixed;
+    right: 0;
+    margin-right:38px; 
+    text-align: center;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 40px;
+    background: rgba(0,0,0,.5);
+}
+.login h3
+{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.login .input-group
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.login .input-group span:hover
+{
+    color: yellow;
+}
+.login .input-group input
+{
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #000;
+}
+.login .input-group span
+{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    padding: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: #fff;
+    text-transform: uppercase;
+}
+.login .input-group input:focus ~ span,
+.login .input-group input:valid ~ span
+{
+    top: -12px;
+    left: 12px;
+    font-size: 12px;
+    padding: 2px 4px;
+    border: 1px solid #000;
+    background: #a4c6ef;
+}
+.login .input-group input[type="submit"]
+{
+    background: #0090DE;
+    border: none;
+    color: white;
+    box-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+.login .input-group input[type="submit"]:hover
+{
+    background: #0090DE;
+}
+.login a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.login a span
+{
+    color:#0090DE;
+    font-weight: 600;
+}
+.login a span:hover
+{
+    color:#DAA520;
+    
+}
